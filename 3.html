@@ -1,0 +1,198 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url('http://poornima.org/technovation-2020/img/1561374637Annotation2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style
+	
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+	 
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
+	 
+	<link rel="stylesheet" href="styles.css" >
+	 
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+	<center>
+
+<header>
+
+  <h1>Attendance Management System</h1>
+
+</header>
+
+<h3>Login Panel</h3>
+
+
+<!-- Old Version -->
+<!-- 
+<form action="" method="post">
+	
+	<table>
+		<tr>
+			<td>Username </td>
+			<td><input type="text" name="username"></input></td>
+		</tr>
+		<tr>
+			<td>Password</td>
+			<td><input type="password" name="password"></input></td>
+				
+		</tr>
+		<tr>
+			<td>Role</td>
+			<td>
+			<select name="type">
+				<option name="teacher" value="teacher">Teacher</option>
+				<option name="student" value="student">Student</option>
+				<option name="admin" value="admin">Admin</option>
+			</select>
+			</td>
+		</tr>
+		<tr><td><br></td></tr>
+		<tr>
+			<td><button><input type="submit" name="login" value="Login"></input></button></td>
+			<td><button><input type="reset" name="reset" value="Reset"></button></td>
+		</tr>
+	</table>
+</form>
+-->
+
+<div class="content">
+	<div class="row">
+
+		<form method="post" class="form-horizontal col-md-6 col-md-offset-3">
+			<div class="form-group">
+			    <label for="input1" class="col-sm-3 control-label">Username</label>
+			    <div class="col-sm-7">
+			      <input type="text" name="username"  class="form-control" id="input1" placeholder="Your Username" />
+			    </div>
+			</div>
+
+			<div class="form-group">
+			    <label for="input1" class="col-sm-3 control-label">Password</label>
+			    <div class="col-sm-7">
+			      <input type="password" name="password"  class="form-control" id="input1" placeholder="Your Password" />
+			    </div>
+			</div>
+
+
+			<div class="form-group" class="radio">
+			<label for="input1" class="col-sm-3 control-label">Login As:</label>
+			<div class="col-sm-6">
+			  <label>
+			    <input type="radio" name="type" id="optionsRadios1" value="student" checked> Student
+			  </label>
+			  	  <label>
+			    <input type="radio" name="type" id="optionsRadios1" value="teacher"> Teacher
+			  </label>
+			  <label>
+			    <input type="radio" name="type" id="optionsRadios1" value="admin"> Admin
+			  </label>
+			</div>
+			</div>
+
+
+			<input type="submit" class="btn btn-success col-md-3 col-md-offset-7" style="border-radius:0%" value="Login" name="login" />
+		</form>
+	</div>
+</div>
+
+<p><strong><a href="reset.php" style="text-decoration:none;">Reset Password</a></strong></p>
+<p><strong><a href="signup.php" style="text-decoration:none;">Create New Account</a></strong></p>
+
+<div class="post-entry">
+					
+
+<div id="content" class="container">
+  <div class="w3-row">
+    <div class="w3-col l12" role="main">
+      <h3 style="text-align: center;" class="wow fadeInUp"><span style="color: #000000;">Attendance Session (2021-22)</span></h3>
+      <div class="w3-row">
+        
+        <link rel="stylesheet" href="https://poornima.org/attendance_folder/include/materialize.min.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <div class="input-field col-md-12 registration_panel">
+		
+           <i class="medium material-icons" style="float: right;font-size: 20px;">search</i>
+            <input id="reg_number" type="text" name="regno" class="validate" required="required" style="float: left;height:2rem;">
+            <label for="reg_number">Registration Number</label>
+        </div><br /><br />
+
+              <input type="submit" value="submit" name="submit" size="65" class="button button_regpanel">
+
+        
+</form>
+
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+
+<div class="container">
+  <!-- Trigger the modal with a button -->
+  <button type="button" id="modal_trigger"  style="display:none" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog" style="z-index: 111111111;">
+    <div class="modal-dialog" style="margin-top:200px">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+
+          <button type="button" class="close" data-dismiss="modal" >&times;</button>
+          <h4>Attendance Record</h4>
+        </div>
+        <div class="modal-body">
+				 
+		
+		</div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>  
+    </div>
+  </div>
+</div>
+
+<div class="wow fadeInUp" align="center" style="color:#FF0000; font-size:11px;">Updated on - PCE (ODD Sem.) II, III & IV Year (22.10.2018), PGI (ODD Sem.) I & II Year (03.11.2018), PIET (ODD Sem.) I & II Year (03.11.2018)<br />Only View current Attendance followed by date on www.poornima.org</div>
+        <div class="col-md-12">
+          
+          
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>           
+
+</div>
+
+				</div>
+				<!-- end of .post-entry -->
+
+				
+</center>
+</body>
+</html>
